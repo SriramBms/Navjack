@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/sriramsh/gcm-demo/CarLabNew/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d71573c9c5ea98a8db47ad6ff993a63d492b3bfa">
+        <dex dex="/home/sriramsh/gcm-demo/CarLabNew/app/build/intermediates/pre-dexed/debug/classes-b12e9a6ba85d43d528b71b636c6c622fd7f9669c.jar" />
+    </item>
+    <item
+        jar="/home/sriramsh/Downloads/adt-bundle-linux-x86_64-20140624/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/home/sriramsh/gcm-demo/CarLabNew/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-6d579043a73b8e6e115377d85da22470ee430fe6.jar" />
+    </item>
+
+</items>

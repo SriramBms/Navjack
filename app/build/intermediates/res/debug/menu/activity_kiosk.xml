@@ -1,0 +1,4 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mnuDev" android:title="@string/dev"></item>
+</menu>
+<!-- From: file:/home/sriramsh/gcm-demo/CarLabNew/app/src/main/res/menu/activity_kiosk.xml -->

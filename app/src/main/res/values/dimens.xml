@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="table_spacing">10dp</dimen>
+    <dimen name="table_spacing2">15dp</dimen>
+    <dimen name="table_spacing3">5dp</dimen>
+    <dimen name="statusHeight">20dp</dimen>
+    <dimen name="statusWidth">5dp</dimen>
+</resources>

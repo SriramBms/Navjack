@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/carbonfibrerepeat" >
+<!-- 
+        <ImageButton
+        android:id="@+id/btnLiveData"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:background="@color/lightgray"
+        android:src="@drawable/obd_kiosk" />
+
+    <ImageButton
+        android:id="@+id/btnNavigation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnLiveData"
+        android:layout_marginTop="15dp"
+        android:background="@color/lightgray"
+        android:src="@drawable/navigation" />
+        <ProgressBar
+         android:id="@+id/progbar"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         style="@android:style/Widget.ProgressBar.Small"
+         android:layout_marginRight="5dp"
+         android:visibility="gone"/>
+          -->
+        <ImageButton
+        android:id="@+id/btnLiveData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        
+        android:layout_marginTop="15dp"
+        android:background="@color/lightgray"
+        android:src="@drawable/obd_kiosk" />
+      <LinearLayout
+          android:id="@+id/progresstextcontainer"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@color/bg_gray"
+          android:layout_centerInParent="true"
+          android:visibility="gone"
+          >
+	<TextView 
+	    android:id="@+id/infoProgress"
+	    android:text="@string/messageprogress"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:textSize="25dp"
+	    android:gravity="center"
+	    android:layout_margin="15dp"
+	    android:textColor="@color/black"/>
+	</LinearLayout>
+    <ImageButton
+        android:id="@+id/btnNavigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+       android:layout_below="@id/btnLiveData"
+        android:layout_marginTop="15dp"
+        android:background="@color/lightgray"
+        android:src="@drawable/navigation" />
+      <RelativeLayout
+         android:layout_marginLeft="20px"
+         android:layout_marginRight="20px"
+         android:layout_width="wrap_content"
+         android:layout_height="fill_parent"
+         android:layout_alignParentRight="true"> 
+    <ImageButton
+        android:id="@+id/btnSettings"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:background="@color/transparent"
+        android:scaleType="fitXY"
+        
+        android:src="@drawable/ic_action_settings" />
+    <ImageButton
+        android:id="@+id/btnBT"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitXY"
+        android:background="@color/transparent"
+        android:src="@drawable/ic_button_bt" />
+    
+    </RelativeLayout>
+    
+
+</RelativeLayout>
+<!-- From: file:/home/sriramsh/gcm-demo/CarLabNew/app/src/main/res/layout/activity_kiosk_landscape.xml -->
